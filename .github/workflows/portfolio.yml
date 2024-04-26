@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'portfolio/**'
+  workflow_dispatch:
 
 jobs:
   copy_files:
